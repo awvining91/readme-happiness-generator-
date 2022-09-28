@@ -1,13 +1,27 @@
 // TODO: Include packages needed for this application
-
+const generateMarkdown = require('./generateMarkdown.js')
 // TODO: Create an array of questions for user input
-const questions = [];
+
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFileSync(fileName, data)
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    return inquirer.prompt(questions)
+        .then(data => {
+            console.log(data);
+            writeToFile('./generated.md', generateMarkdown(data))
+        }
+            
+            
+            )
+
+
+
+}
 
 // Function call to initialize app
 init();
@@ -19,26 +33,39 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 
 inquirer
-  .prompt([
+
+const questions = [
+  
     {
       type: 'input',
-      message: 'What is your user name?',
-      name: 'username',
+      message: 'What is the title of this cool stuff you are working on?',
+      name: 'title',
     },
     {
       type: 'input',
-      message: 'What is your age?',
-      name: 'age',
+      message: 'Could you tell us more about what you are working on?',
+      name: 'description',
     },
     {
       type: 'input',
-      message: 'What is your favorite color',
-      name: 'color',
+      message: 'Could you tell us more about the usage of what you are building?',
+      name: 'usage',
     },
-  ])
-  .then((response) =>
-    response.age === response.color
-      ? console.log('Success!')
-      : console.log('Thanks for the info!')
-  );
+    {
+        type: 'input',
+        message: 'Could you give us more info on depencies needs and installation guidelines?',
+        name: 'installation',
+      },
+      {
+        type: 'input',
+        message: 'Could you give us more info on depencies needs and installation guidelines?',
+        name: 'installation',
+      },
+      {
+        type: 'input',
+        message: 'Could you give us more info on depencies needs and installation guidelines?',
+        name: 'installation',
+      },
+
+];
 
