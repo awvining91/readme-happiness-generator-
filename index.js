@@ -24,7 +24,7 @@ function init() {
 }
 
 // Function call to initialize app
-init();
+
 
 const fs = require('fs');
 
@@ -32,7 +32,7 @@ const fs = require('fs');
 
 const inquirer = require('inquirer');
 
-inquirer
+
 
 const questions = [
   
@@ -46,22 +46,31 @@ const questions = [
       message: 'Could you tell us more about what you are working on?',
       name: 'description',
     },
+
+    {
+      type: 'input',
+      message: 'Do not forget to add a table of contents section!',
+      name: 'tableofcontents',
+      },
+
+
     {
       type: 'input',
       message: 'Could you tell us more about the usage of what you are building?',
       name: 'usage',
     },
     {
-        type: 'input',
-        message: 'Could you give us more info on depencies needs and installation guidelines?',
-        name: 'installation',
-      },
-      {
-        type: 'input',
-        message: 'Could you give us more info on depencies needs and installation guidelines?',
-        name: 'installation',
-      },
-      {
+      type: 'checkbox',
+      message: 'What kind of license do you have?',
+      name: 'license',
+      choices: ['GNU GPL', 'ISC', 'BSD', 'MIT']
+    },
+    {
+      type: 'input',
+      message: 'Are you working with anyone else?',
+      name: 'contributors',
+    },
+    {
         type: 'input',
         message: 'Could you give us more info on depencies needs and installation guidelines?',
         name: 'installation',
@@ -69,3 +78,4 @@ const questions = [
 
 ];
 
+init();
