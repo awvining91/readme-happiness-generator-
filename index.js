@@ -49,7 +49,7 @@ const questions = [
 
     {
       type: 'input',
-      message: 'Do not forget to add a table of contents section!',
+      message: 'Please add a table of contents section for the readme.',
       name: 'tableofcontents',
       },
 
@@ -72,20 +72,27 @@ const questions = [
     },
     {
       type: 'input',
-      message: 'Could you give us more info on depencies needs and installation guidelines?',
+      message: 'Could you give us more info on dependencies needed and installation guidelines?',
       name: 'installation',
     },
 
     {
       type: 'input',
       message: 'List any tests that you might use for the project please.',
-      name: 'tests',
+      name: 'test',
       },
 
       {
        type: 'input',
-       message: 'Tell us what your email addres is in case of questions.',
+       message: 'Tell us what your email address is in case of questions.',
        name: 'email',
+      },
+
+
+      {
+       type: 'input',
+       message: 'Tell us what your github username is as well.',
+       name: 'github',
       },
 
 

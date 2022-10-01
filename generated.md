@@ -1,36 +1,38 @@
 
   
-  # cool stuff
+  # readme generator
 
   ## Description
 
-  it's cool
+  ggg
 
   ## Table of Contents
 
-  add table of contents
+  -Description, - Usage
 
   ### Usage
 
-  building cool stuff
+  fff
 
   ### License
 
-  MIT
+  GNU GPL
 
   ### Contributors
 
-  no
+  ttt
 
   ### Tests
 
-  undefined
+  eee
 
   ### Questions
 
   Feel free to send me an email to my email address if you have any questions!!!
 
-  email address: [undefined](mailto:undefined)
+  My email: [awvining91@gmail.com](mailto:awvining91@gmail.com)
+  
+  My github: [https://github.com/awvining91](https://github.com/awvining91)
 
 
 
