@@ -47,7 +47,8 @@ function generateMarkdown(data) {
 
   Feel free to send me an email to my email address if you have any questions!!!
 
-  email address: [${data.email}](mailto:${data.email})
+  My email: [${data.email}](mailto:${data.email})
+  My github: [https://github.com/${data.github}](https://github.com/${data.github})
 
 
 

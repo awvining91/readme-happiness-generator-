@@ -71,10 +71,26 @@ const questions = [
       name: 'contributors',
     },
     {
-        type: 'input',
-        message: 'Could you give us more info on depencies needs and installation guidelines?',
-        name: 'installation',
+      type: 'input',
+      message: 'Could you give us more info on depencies needs and installation guidelines?',
+      name: 'installation',
+    },
+
+    {
+      type: 'input',
+      message: 'List any tests that you might use for the project please.',
+      name: 'tests',
       },
+
+      {
+       type: 'input',
+       message: 'Tell us what your email addres is in case of questions.',
+       name: 'email',
+      },
+
+
+
+
 
 ];
 
