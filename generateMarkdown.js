@@ -19,6 +19,8 @@ function generateMarkdown(data) {
   
   # ${data.title}
 
+  [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
   ## Description
 
   ${data.description}
@@ -27,28 +29,44 @@ function generateMarkdown(data) {
 
   ${data.tableofcontents}
 
-  ### Usage
+  
+- Description
 
-  ${data.usage}
+- Installation
 
-  ### License
+- Usage
 
-  ${data.license}
+- License
 
-  ### Contributors
+- Contributing
 
-  ${data.contributors}
+- Tests
 
-  ### Tests
+- Questions
 
-  ${data.test}
+### Usage
 
-  ### Questions
+${data.usage}
 
-  Feel free to send me an email to my email address if you have any questions!!!
+### License
 
-  My email: [${data.email}](mailto:${data.email})
-  My github: [https://github.com/${data.github}](https://github.com/${data.github})
+${data.license}
+
+### Contributors
+
+${data.contributors}
+
+### Tests
+
+${data.test}
+
+### Questions
+
+Feel free to send me an email to my email address if you have any questions!!!
+
+My email: [${data.email}](mailto:${data.email})
+
+My github: [https://github.com/${data.github}](https://github.com/${data.github})
 
 
 
