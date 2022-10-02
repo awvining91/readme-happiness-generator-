@@ -1,19 +1,19 @@
 // TODO: Include packages needed for this application
-const makeNewFile = require('./generateMarkdown.js')
+const makeNewFile = require('./createReadMe.js')
 // TODO: Create an array of questions for user input
 
 
 // TODO: Create a function to write README file
-function writeToFile(newReadMe, data) {
-    fs.writeFileSync(newReadMe, data)
+function makeReadMe(newReadMe, info) {
+    fs.writeFileSync(newReadMe, info)
 }
 
 // TODO: Create a function to initialize app
 function init() {
     return inquirer.prompt(userResponse)
-        .then(data => {
-            console.log(data);
-            writeToFile('./newreadme.md', makeNewFile(data))
+        .then(info => {
+            console.log(info);
+            makeReadMe('./newreadme.md', makeNewFile(info))
         }
             
             
@@ -63,7 +63,7 @@ const userResponse = [
       type: 'checkbox',
       message: 'What kind of license do you have?',
       name: 'license',
-      choices: ['GNU GPL', 'ISC', 'BSD', 'MIT']
+      choices: ['CC0', 'IBM', 'ODbl', 'PDDL']
     },
     {
       type: 'input',
