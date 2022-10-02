@@ -1,3 +1,17 @@
+//Hello, welcome to my readme generator! I hope you like it! :)
+
+//Note there are some leftover comments and starter code from the class starter code.
+
+/* On this page I linked the createReadMe.js file on line 11 and wrote a function on lines 16 and 17
+to write a new Readme file.
+
+I wrote some constant variables to use fs and inquirer then initiallized the app with some questions 
+that the user will fill out for the new read me.
+
+
+*/
+
+
 // TODO: Include packages needed for this application
 const makeNewFile = require('./createReadMe.js')
 // TODO: Create an array of questions for user input
@@ -102,3 +116,17 @@ const userResponse = [
 ];
 
 init();
+
+/* References
+
+https://www.youtube.com/watch?v=knK7JMwxl3M&t=238s
+
+https://www.youtube.com/watch?v=Pp9IG-prQjE
+
+https://www.w3schools.com/nodejs/nodejs_intro.asp
+
+https://www.npmjs.com/package/inquirer
+
+
+
+*/
