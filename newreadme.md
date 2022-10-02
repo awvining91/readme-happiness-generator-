@@ -1,16 +1,16 @@
 
   
-  # u
+  # Readme Generator
 
   [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
   ## Description
 
-  u
+  Readme
 
   ## Table of Contents
 
-  u
+  Yes
 
   
 - Description
@@ -29,27 +29,27 @@
 
 ### Usage
 
-u
+Readme generator
 
 ### License
 
-CC0
+IBM
 
 ### Contributors
 
-u
+No
 
 ### Tests
 
-u
+user tests
 
 ### Questions
 
 Feel free to send me an email to my email address if you have any questions!!!
 
-My email: [u](mailto:u)
+My email: [awvining91@gmail.com](mailto:awvining91@gmail.com)
 
-My github: [https://github.com/u](https://github.com/u)
+My github: [https://github.com/awvining91](https://github.com/awvining91)
 
 
 
