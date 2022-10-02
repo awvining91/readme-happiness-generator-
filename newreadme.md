@@ -33,7 +33,7 @@ d
 
 ### License
 
-
+GNU GPL
 
 ### Contributors
 
@@ -41,13 +41,13 @@ d
 
 ### Tests
 
-
+d
 
 ### Questions
 
 Feel free to send me an email to my email address if you have any questions!!!
 
-My email: [](mailto:)
+My email: [d](mailto:d)
 
 My github: [https://github.com/d](https://github.com/d)
 

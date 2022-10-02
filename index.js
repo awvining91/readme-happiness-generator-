@@ -1,19 +1,19 @@
 // TODO: Include packages needed for this application
-const generateMarkdown = require('./generateMarkdown.js')
+const makeNewFile = require('./generateMarkdown.js')
 // TODO: Create an array of questions for user input
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {
-    fs.writeFileSync(fileName, data)
+function writeToFile(newReadMe, data) {
+    fs.writeFileSync(newReadMe, data)
 }
 
 // TODO: Create a function to initialize app
 function init() {
-    return inquirer.prompt(questions)
+    return inquirer.prompt(userResponse)
         .then(data => {
             console.log(data);
-            writeToFile('./generated.md', generateMarkdown(data))
+            writeToFile('./newreadme.md', makeNewFile(data))
         }
             
             
@@ -34,7 +34,7 @@ const inquirer = require('inquirer');
 
 
 
-const questions = [
+const userResponse = [
   
     {
       type: 'input',
